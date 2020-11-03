@@ -8,3 +8,4 @@ dependencies:
   - cling
   - xeus-cling
   - notebook
+  - llvmdev=5.0.0
