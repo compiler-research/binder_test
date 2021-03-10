@@ -13,3 +13,7 @@ module load cudatoolkit/10.0
 module load rh/devtoolset/8
 
 nvidia-smi
+ls
+pwd
+mv ci.out ~dlange/.
+
