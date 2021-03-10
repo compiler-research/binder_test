@@ -37,6 +37,7 @@ jobs:
           pwd
           ls
           chmod +x scripts/tiger_ci.sh
-          sbatch scripts/tiger_ci.sh
+          sbatch -w scripts/tiger_ci.sh
+          ls ~dlange
           echo Add other actions to build,
           echo test, and deploy your project.
