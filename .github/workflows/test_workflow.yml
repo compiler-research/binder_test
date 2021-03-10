@@ -36,5 +36,6 @@ jobs:
         run: |
           pwd
           ls
+          chmod +x scripts/tiger_ci.sh          
           echo Add other actions to build,
           echo test, and deploy your project.
