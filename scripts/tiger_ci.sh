@@ -7,6 +7,7 @@
 #SBATCH --nodes=1
 #SBATCH --mail-type=end          # send email when job ends
 #SBATCH --mail-user=dlange@princeton.edu
+#SBATCH -o ci.out
 
 module load cudatoolkit/10.0
 module load rh/devtoolset/8
